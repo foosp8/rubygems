@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Rubygems</a>
+  <a class="navbar-brand" href="/">Rubygems</a>
   <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -20,6 +20,12 @@
             <div class="fa fa-book"></div>
             Courses
           <% end %>
+        </li>
+        <li class="<%= 'active font-weight-bold' if current_page?(new_course_path) %> nav-item">
+          <%= link_to new_course_path, class: 'nav-link' do %>
+            <div class="fa fa-plus"></div>
+            New Course
+          <% end %>          
         </li>
       </ul>
 

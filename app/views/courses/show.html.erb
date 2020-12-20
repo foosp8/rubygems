@@ -1,12 +1,7 @@
+<%= link_to 'Courses', courses_path %>
+/
+<%= link_to @course.title, course_path(@course) %>
 <p>
-  <strong>Title:</strong>
-  <%= @course.title %>
+<%= render 'courses/course', course: @course %>
 </p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @course.description %>
-</p>
-
-<%= link_to 'Edit', edit_course_path(@course) %> |
 <%= link_to 'Back', courses_path %>
