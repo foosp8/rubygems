@@ -78,16 +78,14 @@
 
     <% else %>
 
-    <ul class="navbar-nav mr-auto">
-      <ul class="navbar-nav mr-right">
-        <li class="<%= 'active font-weight-bold' if current_page?(new_user_registration_path) %> nav-item">
+      <ul class="navbar-nav">
+        <li class="nav-item">
           <%= link_to 'Sign Up', new_user_registration_path, class: 'nav-link' %>
         </li>
-        <li class="<%= 'active font-weight-bold' if current_page?(new_user_session_path) %> nav-item">
+        <li class="nav-item">
           <%= link_to 'Log In', new_user_session_path, class: 'nav-link' %>
         </li>
       </ul>
-    </ul>
 
     <% end %>
 
