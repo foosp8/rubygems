@@ -12,3 +12,4 @@ Rails.application.initialize!
       :domain         => 'heroku.com',
       :authentication => :plain,
     }
+ActionMailer::Base.delivery_method = :smtp
