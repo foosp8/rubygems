@@ -22,4 +22,7 @@ class Course < ApplicationRecord
       #LEVELS.map { |level| [display "1ST Level" in column, to_save DATA in "2nd level"] }
     end
 
+    include PublicActivity::Model
+     tracked owner: Proc.new{ |controller, model| controller.current_user }
+
 end

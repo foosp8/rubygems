@@ -1,3 +1,13 @@
+<h3>
+  <div class="text-center">
+    Users
+    <div class="badge badge-info">
+      <%= @users.count %>
+    </div>
+  </div>
+</h3>
+<p></p>
+
 <div class="card-columns">
   <% @users.each do |user| %>
     <%= render 'users/user', user: user  %>
@@ -15,6 +25,7 @@
   <%= link_to users_path, class: 'btn btn-small btn-secondary' do %>
     <div class="fa fa-sync"></div>
   <% end %>
+</div>
 
 <table class="table table-bordered">
   <thead>
