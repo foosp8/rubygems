@@ -32,6 +32,19 @@
   <% else %>
     <div class="badge badge-danger">No</div>
   <% end %>
-</div>
+  </div>
+
+  <div class="card-footer">
+    <% user.roles.each do |role| %>
+      <div class="badge badge-info">
+        <%= role.name %>
+      </div>
+    <% end %>
+
+    <% if policy(user).edit? %>
+    <%= link_to 'Edit roles', edit_user_path(user), class: 'btn btn-sm btn-warning' %>
+    <% end %>
+  </div>
+
 
 </div>
