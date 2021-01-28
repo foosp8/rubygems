@@ -1,4 +1,4 @@
-<%= simple_form_for(@lesson) do |f| %>
+<%= simple_form_for([@course, @lesson]) do |f| %>
   <%= f.error_notification %>
   <%= f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present? %>
 
@@ -6,7 +6,6 @@
     <%= f.input :title %>
     <%= f.input :content, as: :rich_text_area %>
 
-    <%= f.input :course_id, input_html: {value: @lesson.course_id || params[:course_id]}, as: :hidden %>
   </div>
 
   <div class="form-actions">
