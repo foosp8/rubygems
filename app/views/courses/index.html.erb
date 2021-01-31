@@ -1,3 +1,8 @@
+<% content_for :title do %>
+  RubygemC|All Courses
+<% end %>
+
+
 <h3>
   <div class="text-center">
     Courses
@@ -42,7 +47,10 @@
 
 </div>
 
+<!-- <%== pagy_nav(@pagy) %> -->
+<!--<%== pagy_bootstrap_combo_nav_js(@pagy) %> -->
 
+<%= raw(pagy_bootstrap_nav(@pagy)) %>
 
 <%= link_to root_path, class: 'btn btn-success' do %>
   <div class="fa fa-home"></div>

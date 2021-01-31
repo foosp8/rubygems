@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rubygems</title>
+    <!-- <title>Rubygems</title> -->
+    <title>
+      <%= content_for?(:title) ? yield(:title) : "Rubygems" %>
+    </title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 

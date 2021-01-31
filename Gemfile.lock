@@ -113,6 +113,7 @@ GEM
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
+    pagy (3.10.0)
     pg (1.2.3)
     public_activity (1.6.4)
       actionpack (>= 3.0.0)
@@ -238,6 +239,7 @@ DEPENDENCIES
   friendly_id (~> 5.4.0)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  pagy
   pg (>= 0.18, < 2.0)
   public_activity
   puma (~> 4.1)

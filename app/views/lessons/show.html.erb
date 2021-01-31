@@ -1,3 +1,9 @@
+<% content_for :title do %>
+  RubygemC|
+  <%= @course.title %>|
+  <%= @lesson.title %>
+<% end %>
+
 <%= link_to 'Courses', courses_path %>
 /
 <%= link_to @lesson.course.title, course_path(@lesson.course) %>
