@@ -8,7 +8,7 @@ class User < ApplicationRecord
 
   has_many :courses
   has_many :enrollments
-  
+
   def to_s
     email
   end
@@ -39,6 +39,10 @@ class User < ApplicationRecord
 
   def online?
     updated_at > 2.minutes.ago
+  end
+
+  def buy_course(course)  # added verifying user enrollment to course code
+    self.enrollments.create(course: course, price: course.price)
   end
 
    private
