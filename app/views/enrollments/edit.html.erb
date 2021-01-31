@@ -1,14 +1,13 @@
 <% content_for :title do %>
    RubygemC/Editing -
-  <%= @course.title %>
+  <%= @enrollment.to_s %>
 <% end %>
-
 
 <div class="card">
   <div class="card-header">
     <h3>
-    <div class="fa fa-graduation-cap"></div>
-    Editing course
+      <div class="fa fa-lock-open"></div>
+      Editing Enrollment
     </h3>
   </div>
   <div class="card-body">
@@ -16,7 +15,7 @@
   </div>
 
   <div class="card-footer">
-    <%= link_to 'Show', @course %> |
-    <%= link_to 'Back', courses_path %>
+  <%= link_to 'Show', @enrollment %> |
+  <%= link_to 'Back', enrollments_path %>
   </div>
 </div>
