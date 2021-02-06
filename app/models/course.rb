@@ -26,10 +26,10 @@ class Course < ApplicationRecord
     end
 
     include PublicActivity::Model
-     tracked owner: Proc.new{ |controller, model| controller.current_user }
+    tracked owner: Proc.new{ |controller, model| controller.current_user }
 
     def bought(user)
-     self.enrollments.where(user_id: [user.id], course_id: [self.id].empty?)
+     self.enrollments.where(user_id: [user.id], course_id: [self.id]).empty?
     end
 
 

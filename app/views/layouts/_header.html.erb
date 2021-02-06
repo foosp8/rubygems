@@ -89,6 +89,10 @@
           </a>
 
           <div aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-right">
+            <%= link_to user_path(current_user), class: "dropdown-item" do %>
+              <div class="fa fa-user"></div>
+              <b>My profile</b>
+            <% end %>
             <%= link_to edit_user_registration_path, class: "dropdown-item" do %>
               <div class="fa fa-cog"></div>
               <b>Account settings</b>
