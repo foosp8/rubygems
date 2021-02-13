@@ -62,10 +62,16 @@
                   Learn
                 </a>
                 <div aria-labelledby="studentDropdown" class="dropdown-menu dropdown-menu-right">
-                  <!-- <%= link_to new_course_path, class: "dropdown-item" do %>
-                    <div class="fa fa-plus"></div>
-                    New Course
-  		            <% end %> -->
+                  <%= link_to purchased_courses_path, class: "dropdown-item" do %>
+                    <div class="fa fa-graduation-cap">
+                      Purchased Courses
+                    </div>
+                  <% end %>
+                  <%= link_to pending_review_courses_path, class: "dropdown-item" do %>
+                    <div class="fa fa-star">
+                      Pending Review
+                    </div>
+                  <% end %>
                 </div>
               </li>
             <% end %>
@@ -78,10 +84,18 @@
               </a>
               <div aria-labelledby="teacherDropdown" class="dropdown-menu dropdown-menu-right">
                 <%= link_to new_course_path, class: "dropdown-item" do %>
-                  <div class="fa fa-plus"></div>
                   <div class="fa fa-graduation-cap"></div>
+                  <div class="fa fa-plus"></div>
                   New Course
                 <% end %>
+                <%= link_to created_courses_path, class: "dropdown-item" do %>
+                  <div class="fa fa-graduation-cap"></div>
+                  My courses
+                <% end %>
+                <%= link_to my_students_enrollments_path, class: "dropdown-item" do %>
+                  <div class="fa fa-users"></div>
+                  My students
+                <% end %>        
               </div>
             </li>
           <% end %>
