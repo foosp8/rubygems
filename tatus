@@ -1,0 +1,285 @@
+[33mcommit ac54685372467346f60f87f20490ab9c88461097[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Feb 7 23:25:20 2021 +0800
+
+    gem ransack for enrollments index
+
+[33mcommit c7f1590e13e619e1f263880f1408a01cdd3170d7[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Feb 7 09:36:20 2021 +0800
+
+    gem friendly_id for enrollments
+
+[33mcommit 4db4ab641beb17acb637b10b0e8fb22851bd1013[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Feb 7 02:56:05 2021 +0800
+
+    gem pagy for enrollments and users
+
+[33mcommit 0848693b2e18426291b00bae2e6219f40f12a860[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Feb 7 02:30:05 2021 +0800
+
+    create Button for user to Review a Course
+
+[33mcommit 686a32dc8e0651ce2c229142fa8da7e020bea016[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Feb 6 14:30:28 2021 +0800
+
+    gem pundit for enrollment, user accessing his purchased courses and work on Enrollment view
+
+[33mcommit e2907b9147aeb7fe7be765805c3796e3caca31ee[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Feb 1 00:37:24 2021 +0800
+
+    Button for user to Enroll to a Course and gem pundit for Enrollments
+
+[33mcommit 0db41a3176fa28f720c0b696c650637bf30bde5d[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Jan 31 16:55:49 2021 +0800
+
+    scaffold Enrollments. Basic validation and design
+
+[33mcommit 88f5ea2805ea9fd7ad93182ba4e96838bc14aa9b[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Jan 31 10:44:09 2021 +0800
+
+    add dynamic title to page tabs shown in browser
+
+[33mcommit c26fc50fb302971345d2786aaac95cc5fd364a88[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Jan 30 22:11:40 2021 +0800
+
+    modified db:seed
+
+[33mcommit d2d31e51191c6224a903552f3f47f4a7db8daf05[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Jan 30 09:54:21 2021 +0800
+
+    design for courses and lessons
+
+[33mcommit ab28709f1bded89c6ea9b9fe0a97df47500c71b0[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Jan 30 00:22:48 2021 +0800
+
+    adding card to course & lesson New and Edit
+
+[33mcommit 9dd3f4ec2d0a886673d6b30610d756884d8784b1[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Thu Jan 28 16:39:38 2021 +0800
+
+    gem pundit for Lesson create action
+
+[33mcommit 2fa19a3e2a746f61bdef47b6af5c41f10203f590[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Thu Jan 28 12:44:30 2021 +0800
+
+    updated lesson nested under Course
+
+[33mcommit d456ef2a54f447de17fd746531447417a068662c[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Thu Jan 28 07:06:48 2021 +0800
+
+    gem pundit authorisation for Lessons
+
+[33mcommit 53b0e0622175009c536a7673c80a12400398e1ca[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Jan 24 21:56:04 2021 +0800
+
+    Added action_text for Lessons, add breadcrumbs for lesson show
+
+[33mcommit 92498aaa730a3f840c8bd34c05db05187386247a[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Jan 24 21:19:26 2021 +0800
+
+    gem public_activity for Lessons and create Lessons inside Courses
+
+[33mcommit 71d63c6ca7245fb9ced37c81400bf526143ac080[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Wed Jan 20 01:16:06 2021 +0800
+
+    create Check if User is online
+
+[33mcommit 3c0f9fa30561cccc2634b1c28769937622c592e4[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Tue Jan 19 23:05:04 2021 +0800
+
+    created Friendly ID for user
+
+[33mcommit 965459f9bd364a6f9e79f1dcd6b75e5475a8871f[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Tue Jan 19 22:28:02 2021 +0800
+
+    update course_policy.rb so no issue for view template error when login and logout
+
+[33mcommit b1880804de18056403e3297860d4a92796ac7948[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Tue Jan 19 16:48:18 2021 +0800
+
+    set up Rolify and pundit for authorisation user and action
+
+[33mcommit 9414a7c37294c925c416d9621099ccea47ae7055[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Jan 18 13:35:23 2021 +0800
+
+    create track action in apps via gem public_activity and added footer
+
+[33mcommit f7243f543784a3090a422ebc73e0c362d001bc36[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Jan 11 13:32:12 2021 +0800
+
+    course search & filter + navbar search by using ransack gem
+
+[33mcommit 2872efb8ef3385b6ee7068c98849f510b83ab9c5[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Jan 10 10:39:20 2021 +0800
+
+    added filter & sorting function created table in index file by using Ransack gem
+
+[33mcommit 08380902e65e846ca7129bf8eedc1a9c252fb750[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Jan 9 18:45:48 2021 +0800
+
+    add fields to course model, validation to fields, f.input collection, js stylesheet background, card-footer, seeds using faker for field created
+
+[33mcommit 373ca3caaefcc367d404af1a97b23fe785e8e236[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Fri Jan 8 01:02:48 2021 +0800
+
+    added SMTP Action mailer in environment.rb
+
+[33mcommit 6d2773fa45f9ef151b366c077dd151d4d829ea2f[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Thu Jan 7 19:21:51 2021 +0800
+
+    change Sendgrid to Mail gun due to Sengrid banned error
+
+[33mcommit 2549693873cf3ac61ea71251c5423cb12a21e980[m
+Merge: f59f0fd 0e8c3e5
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Wed Jan 6 00:10:03 2021 +0800
+
+    xMerge branch 'master' of https://git.heroku.com/rubygems1
+
+[33mcommit 0e8c3e5e7a826a37ebedecac0950d3e5ab8cfaee[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Jan 4 17:44:51 2021 +0800
+
+    Revert "Nold login n & signup when on that page"
+    
+    This reverts commit d3b1cb6a0ed06c2a1fd347a3c49688666ad6da82.
+
+[33mcommit f59f0fd37390a06f97e9552a8e49b13568e7352c[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Jan 4 14:47:29 2021 +0800
+
+    create mailer in heroku using SendGrid- sending email in production for confirmation
+
+[33mcommit d3b1cb6a0ed06c2a1fd347a3c49688666ad6da82[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Fri Jan 1 19:28:44 2021 +0800
+
+    Nold login n & signup when on that page
+
+[33mcommit e049bf197527dcd1df3f88c9bb5ebb94d70ef1f2[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Fri Jan 1 15:18:19 2021 +0800
+
+    create devise trackable and devise confirmable in development
+
+[33mcommit 0160ad50d04466eca4d022bef8f8415b85dfdd36[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Dec 20 20:47:17 2020 +0800
+
+    use friendly_id gem
+
+[33mcommit b49c871925d8cd783ddda6ba3a61acfadcec9e28[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Dec 20 16:16:06 2020 +0800
+
+    updating edit new show _header and layout_application
+
+[33mcommit 94628bf0b40b177df3a6184b3c1957e5892d9f65[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Dec 19 18:47:57 2020 +0800
+
+    set add botstrap Card for styling course index with _course partial and
+    home controller with home index
+
+[33mcommit e36a389639440a8c9c8e92414823e8437d778544[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Dec 19 10:08:02 2020 +0800
+
+    Added search for course Title in Navbar
+
+[33mcommit 7517962b5793d21b28322a0dbb031108e0f9afa3[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Tue Dec 15 00:24:11 2020 +0800
+
+    create Navbar in layout_header with log in log out function
+
+[33mcommit b7c95dab83e00c3dba90fdcbb0ca3a945da49df7[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Dec 14 16:50:47 2020 +0800
+
+    Seeded 1st user & user id and Associated user to courses model & current user in course controller and delete duplicate flash Mesage in Index and Show view courses
+
+[33mcommit a16ce4023b52df5f05b1a6b74067e1ef21593e98[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Dec 14 10:27:28 2020 +0800
+
+    created message partial and updated layoutouts application to render message partial
+
+[33mcommit e1704a00d6690abe08cfdafee38ad2a6c234b086[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Mon Dec 14 02:03:49 2020 +0800
+
+    Create Devise Authentication with login logout
+
+[33mcommit f44b4ee07e58b40e312d8e8f054a9c337e25746f[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Dec 13 17:26:59 2020 +0800
+
+    Added Faker gem and created 30 data in seed file
+
+[33mcommit a982034ed46897dc549e530dfec7f098ec7db677[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Dec 13 02:09:59 2020 +0800
+
+    add Action Text - rich text editor
+
+[33mcommit bbf5904fb1d14154406b4c8b14e90078cfc50e7d[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sun Dec 13 00:29:13 2020 +0800
+
+    scaffold Course & install simple_form & deleted content in scaffolds_css
+
+[33mcommit 81d4ae4fda5ba3ae2582210e4ef88e4abf51b4a0[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Dec 12 16:20:18 2020 +0800
+
+    install Font Awesome via CLI
+
+[33mcommit f562c6cde1b9b06e7a50be552a9033e432a9fa48[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Dec 12 15:40:52 2020 +0800
+
+    solve boostrap dropdown issue
+
+[33mcommit 90d0aff07a92d3f0c6e1e099b6c9442dab08918e[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Dec 12 10:47:30 2020 +0800
+
+    install bootsrap with yarn and webpacker
+
+[33mcommit 9efd1cbb5120c67b234f8a186811d3cccb3060e6[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Sat Dec 12 00:02:22 2020 +0800
+
+    add home index controller
+
+[33mcommit 02be850a82b9b85d1015eb0bec0de3fbbb04973d[m
+Author: foosp8 <foosp8@hotmail.com>
+Date:   Fri Dec 11 16:17:03 2020 +0800
+
+    initialize app
