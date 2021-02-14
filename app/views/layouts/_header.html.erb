@@ -66,7 +66,7 @@
                     <div class="fa fa-graduation-cap">
                       Purchased Courses
                       <div class="badge badge-danger">
-                        <%= current_user.enrollments.count %>
+                        <%= current_user.enrollments_count %>
                       </div>
                     </div>
                   <% end %>
@@ -98,7 +98,7 @@
                   <div class="fa fa-graduation-cap"></div>
                   My courses
                   <div class="badge badge-danger">
-                    <%= current_user.courses.count %>
+                    <%= current_user.courses_count %>
                   </div>
                 <% end %>
                 <%= link_to my_students_enrollments_path, class: "dropdown-item" do %>

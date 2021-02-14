@@ -55,6 +55,8 @@
       <th>
         <%= 'last_sign_in_ip'.humanize %>
       </th>
+      <th>   <%= 'courses_count'.humanize %> </th>
+      <th>   <%= 'enrollments_count'.humanize %> </th>
       <th>Confirmed?</th>
       <th>Roles</th>
     </tr>
@@ -91,6 +93,9 @@
         <td>
           <%= user.last_sign_in_ip %>
         </td>
+
+        <td> <%= user.courses_count %> </td>
+        <td> <%= user.enrollments_count %> </td>
 
         <td>
           <%= user.confirmed? %>
