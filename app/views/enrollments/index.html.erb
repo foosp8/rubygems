@@ -1,11 +1,14 @@
 <% content_for :title do %>
-  RubygemC|All Enrollments
+  RubygemC|
+  <%= action_name.humanize %>
+  enrollments
 <% end %>
-
 
 <h3>
   <div class="text-center">
-    Enrollments
+    <div class="fa fa-lock-open"></div>
+    <%= action_name.humanize %>
+    enrollments
     <div class="badge badge-info">
       <%= @enrollments.count %>
     </div>
@@ -80,7 +83,7 @@
           <%= enrollment.id %>
         </td>
         <td>
-          <%= link_to enrollment.user, user_path(enrollment.user) %>
+          <%= link_to enrollment.user.email, user_path(enrollment.user) %>
         </td>
         <td>
           <%= enrollment.created_at.strftime("%d/%b/%Y, %H:%M") %>

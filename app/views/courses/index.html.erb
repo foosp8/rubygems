@@ -1,11 +1,15 @@
 <% content_for :title do %>
-  RubygemC|All Courses
+  RubygemC|
+  <%= action_name.humanize %>
+ courses
 <% end %>
 
 
 <h3>
   <div class="text-center">
-    Courses
+    <div class="fa fa-graduation-cap"></div>
+    <%= action_name.humanize %>
+    courses
     <div class="badge badge-info">
       <%= @courses.count %>
     </div>
