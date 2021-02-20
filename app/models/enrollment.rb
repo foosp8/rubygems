@@ -3,7 +3,7 @@ class Enrollment < ApplicationRecord
   #Course.find_each { |course| Course.reset_counters(course.id, :enrollments) }
 
   belongs_to :user, counter_cache: true
-  #User.find_each { |user| User.reset_counters(user.id, :enrollments) } 
+  #User.find_each { |user| User.reset_counters(user.id, :enrollments) }
 
   validates :user, :course, presence: true
 
@@ -16,6 +16,7 @@ class Enrollment < ApplicationRecord
   validate :cant_subscribe_to_own_course  #user can't create a subscription if course.user == current_user.id i.e. user can’t subscribe to his own course
 
   scope :pending_review, -> { where(rating: [0, nil, ""], review: [0, nil, ""]) }
+  scope :reviewed, -> { where.not(review: [0, nil, ""]) }
 
   extend FriendlyId
   friendly_id :to_s, use: :slugged

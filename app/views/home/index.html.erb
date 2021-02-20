@@ -59,27 +59,42 @@
     Learn on your schedule
   </div>
 </div>
+
+<p></p>
+<h2>
+  <div class="fa fa-user-graduate"></div>
+  Continue Learning
+</h2>
+<div class="card-columns">
+  <% @purchased_courses.each do |course| %>
+    <%= render 'courses/course', course: course %>
+  <% end %>
+</div>
 <hr/>
 
+
 <h2>
+  <div class="fa fa-chart-line"></div>
   Popular courses
 </h2>
 <div class="card-columns">
-  <% @courses.each do |course| %>
+    <% @popular_courses.each do |course| %>
     <%= render 'courses/course', course: course %>
   <% end %>
 </div>
 <hr/>
 <h2>
+<div class="fa fa-star"></div>
   Top rated courses
 </h2>
 <div class="card-columns">
-  <% @courses.each do |course| %>
+    <% @top_rated_courses.each do |course| %>
     <%= render 'courses/course', course: course %>
   <% end %>
 </div>
 <hr/>
 <h2>
+  <div class="fa fa-clock"></div>
   Latest courses
 </h2>
 <div class="card-columns">
@@ -88,5 +103,13 @@
   <% end %>
 </div>
 <hr/>
-<br/>
-<br/>
+
+<h2>
+  <div class="fa fa-comment"></div>
+  What our students have to say
+</h2>
+<div class="card-columns">
+  <% @latest_good_reviews.each do |enrollment| %>
+    <%= render 'enrollments/enrollment', enrollment: enrollment %>
+  <% end %>
+</div>
