@@ -36,6 +36,15 @@
       <%= f.search_field :price_eq, placeholder: 'Price', class: 'form-control form-control-sm' %>
       <%= f.label :teacher %>
       <%= f.search_field :user_email_cont, placeholder: 'Email', class: 'form-control form-control-sm' %>
+      <div class="row"></div>
+      <%= sort_link(@ransack_courses, :price) %>
+      <div class="row"></div>
+      <%= sort_link(@ransack_courses, :average_rating, "Top Rated") %>
+      <div class="row"></div>
+      <%= sort_link(@ransack_courses, :enrollments_count, "Most Popular") %>
+      <div class="row"></div>
+      <%= sort_link(@ransack_courses, :created_at, "Fresh") %>
+      <div class="row"></div>
       <%= f.submit %>
     <% end %>
     <%= link_to 'refresh', @ransack_path  %>
